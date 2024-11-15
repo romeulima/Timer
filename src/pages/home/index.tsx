@@ -6,7 +6,7 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import zod from 'zod'
 
 const newCycleFormValidationSchema = zod.object({
-    task: zod.string().min(1, 'Informe a tarefa'),
+    task: zod.string().min(1, 'teste de outro commit ja feito'),
     minutesAmount: zod.number().min(5).max(60)
 })
 
